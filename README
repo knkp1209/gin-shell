@@ -1,0 +1,10 @@
+通过 web 执行脚本
+
+构建并开启服务
+go build && ./gin-shell
+
+客户端请求
+示例1：
+curl 'http://localhost:7790/fetch'
+示例2：
+curl 'http://localhost:7790/checkout?branch=feature/yangwenhang/buried-point'
