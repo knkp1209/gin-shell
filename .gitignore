@@ -1,3 +1,4 @@
 /.idea
 /shell/env.sh
 /gin-shell
+/logs

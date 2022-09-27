@@ -26,8 +26,6 @@ func Checkout(args ...string) (string, error) {
 		}
 		return "", err
 	} else {
-		fmt.Println("aaa")
-		fmt.Println(string(buf))
 		return string(buf), nil
 	}
 }
