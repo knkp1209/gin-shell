@@ -11,4 +11,4 @@ go build && ./gin-shell
 示例1：
 curl 'http://localhost:7790/fetch'
 示例2：
-curl 'http://localhost:7790/checkout?branch=feature/yangwenhang/buried-point'
+curl 'http://localhost:7790/checkout?branch=master'
