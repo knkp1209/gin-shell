@@ -1,7 +1,8 @@
 通过 web 执行脚本
 
 构建并开启服务
-mv ./shell/env_example.sh
+# ./shell 该目录下的脚本需要有执行权限
+cp ./shell/env_example.sh ./shell/env.sh
 # vim ./shell/env_example.sh
 # 配置好脚本环境变量
 go build && ./gin-shell
