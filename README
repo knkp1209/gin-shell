@@ -1,6 +1,9 @@
 通过 web 执行脚本
 
 构建并开启服务
+mv ./shell/env_example.sh
+# vim ./shell/env_example.sh
+# 配置好脚本环境变量
 go build && ./gin-shell
 
 客户端请求

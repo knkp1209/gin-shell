@@ -1,3 +1,5 @@
 #!/bin/bash
-cd /Volumes/develop/rrzuji/yii || exit
-git fetch --all
+. ./env.sh
+cd "$YII_PATH" || exit
+
+sudo -u www-data git fetch --all
